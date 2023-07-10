@@ -1,7 +1,7 @@
 fun main(args: Array<String>) {
 
-    val email = Email("araujonascimentosp @ gmail.com")
-    val mateus = Aluno("52655431634", "Mateus Araujo", email)
+    val fabrica = BuilderAluno()
+    var aluno: Aluno = fabrica.comNomeCPFeEmail(nome = "Mateus","111.222.333-44", "mateus@gmail.com").criarAluno()
 
-    println("Tesste2")
+    println(aluno)
 }

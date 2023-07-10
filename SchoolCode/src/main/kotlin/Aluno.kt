@@ -1,5 +1,8 @@
 data class Aluno(
-    var cpf: String,
+    var cpf: CPF,
     var nome: String,
-    var email: Email
-)
+    var email: Email,
+) {
+
+
+}
