@@ -1,3 +1,5 @@
+package escola.dominio.aluno
+
 class BuilderAluno {
     lateinit var aluno: Aluno
     fun comNomeCPFeEmail(nome: String, cpf: String, email: String): BuilderAluno {
@@ -5,7 +7,7 @@ class BuilderAluno {
         return this
     }
 
-    fun criarAluno(): Aluno{
+    fun criarAluno(): Aluno {
         return this.aluno
     }
 }

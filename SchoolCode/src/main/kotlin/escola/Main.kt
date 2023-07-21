@@ -1,3 +1,8 @@
+package escola
+
+import escola.dominio.aluno.Aluno
+import escola.dominio.aluno.BuilderAluno
+
 fun main(args: Array<String>) {
 
     val fabrica = BuilderAluno()

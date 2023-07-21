@@ -1,3 +1,5 @@
+package escola.dominio.aluno
+
 // VALUE OBJECT
 data class Email(
     var endereco_email: String

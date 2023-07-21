@@ -1,3 +1,5 @@
+package escola.dominio.aluno
+
 data class CPF(
     val numero: String
 ) {

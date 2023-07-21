@@ -4,14 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbd4d1b6-f387-4bc9-874e-45cc4fe29bc2" name="Changes" comment="remove">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/CPF.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/FabricaDeAluno.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Indicacao.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Telefone.kt" afterDir="false" />
+    <list default="true" id="fbd4d1b6-f387-4bc9-874e-45cc4fe29bc2" name="Changes" comment="finish domain">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Aluno.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Aluno.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Aluno.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/escola/dominio/aluno/Aluno.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/BuilderAluno.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/escola/dominio/aluno/BuilderAluno.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/CPF.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/escola/dominio/aluno/CPF.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Email.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/escola/dominio/aluno/Email.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Indicacao.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/escola/dominio/indicacao/Indicacao.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/escola/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Telefone.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/escola/dominio/aluno/Telefone.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +43,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="GitRewordedCommitMessages">
     <option name="commitMessagesMapping">
       <RewordedCommitMessageMapping>
@@ -52,20 +56,39 @@
     <option name="currentCommit" value="1" />
     <option name="onto" value="f67d0aa63331f8ad77585256bafd14f068f25186" />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="ProjectId" id="2St2jsNOEWRi9dGpm6X8DWaKFCx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "git-widget-placeholder": "main"
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "settings.editor.selected.configurable": "terminal"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Mateus Araujo\Documents\Github\SchoolCode\SchoolCode\src\main\kotlin\escola" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="escola.indicacao" />
+      <recent name="escola" />
+      <recent name="escola.aluno" />
+    </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
   <component name="RunManager">
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MainKt" />
+      <option name="MAIN_CLASS_NAME" value="escola.MainKt" />
       <module name="SchoolCode.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -77,7 +100,15 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fbd4d1b6-f387-4bc9-874e-45cc4fe29bc2" name="Changes" comment="finish domain" />
+      <created>1689951708267</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1689951708267</updated>
+    </task>
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -95,5 +126,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
