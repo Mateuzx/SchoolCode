@@ -8,7 +8,7 @@ data class Aluno(
     var senha: String
 ) {
 
-    constructor(cpf: CPF, nome: String, email: Email, senha: String) : this(cpf, nome, email, mutableListOf(),senha)
+    constructor(cpf: CPF, nome: String, email: Email) : this(cpf, nome, email, mutableListOf(),"")
 
 
     fun adicionarTelefone(ddd: String, numero: String) {
