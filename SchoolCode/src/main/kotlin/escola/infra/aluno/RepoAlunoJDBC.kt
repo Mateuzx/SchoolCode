@@ -49,7 +49,8 @@ class RepoAlunoJDBC() : RepoAlunos {
 
             val nome = rs.getString("nome")
             val email = Email(rs.getString("email"))
-            val encontrado = Aluno(cpf, nome, email)
+            val senha = rs.getString("senha")
+            val encontrado = Aluno(cpf, nome, email, senha)
 
             val id = rs.getLong("id")
             val telefoneSql = "SELECT ddd, numero FROM TELEFONE WHERE aluno_id = ?"
@@ -79,7 +80,8 @@ class RepoAlunoJDBC() : RepoAlunos {
                 val cpf = CPF(rs.getString("cpf"))
                 val nome = rs.getString("nome")
                 val email = Email(rs.getString("email"))
-                val aluno = Aluno(cpf, nome, email)
+                val senha = rs.getString("senha")
+                val aluno = Aluno(cpf, nome, email, senha)
 
                 val id = rs.getLong("id")
                 val sqlTelefone = "SELECT ddd, numero FROM TELEFONE WHERE aluno_id = ?"
