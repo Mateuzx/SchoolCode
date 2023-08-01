@@ -5,10 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fbd4d1b6-f387-4bc9-874e-45cc4fe29bc2" name="Changes" comment="finish domain">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/escola/dominio/aluno/CifradorDeSenha.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/escola/infra/aluno/CifradorDeSenhaComMD5.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/escola/application/MatricularAlunoLinhaComando.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/escola/application/aluno/dtos/MatricularAlunoDto.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/escola/application/aluno/matricular/MatricularAluno.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/escola/dominio/aluno/Aluno.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/escola/dominio/aluno/Aluno.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/escola/Main.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/escola/aplicacao/indicacao/EnviarEmailIndicacao.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/escola/application/indicacao/EnviarEmailIndicacao.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/escola/dominio/aluno/Aluno.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/escola/domain/aluno/Aluno.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/escola/dominio/aluno/BuilderAluno.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/escola/domain/aluno/BuilderAluno.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/escola/dominio/aluno/CPF.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/escola/domain/aluno/CPF.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/escola/dominio/aluno/CifradorDeSenha.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/escola/domain/aluno/CifradorDeSenha.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/escola/dominio/aluno/Email.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/escola/domain/aluno/Email.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/escola/dominio/aluno/RepoAlunos.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/escola/domain/aluno/RepoAlunos.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/escola/dominio/aluno/Telefone.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/escola/domain/aluno/Telefone.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/escola/dominio/indicacao/Indicacao.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/escola/domain/indicacao/Indicacao.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/escola/infra/aluno/CifradorDeSenhaComMD5.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/escola/infra/aluno/CifradorDeSenhaComMD5.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/escola/infra/aluno/RepoAlunoJDBC.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/escola/infra/aluno/RepoAlunoJDBC.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/escola/infra/aluno/RepoAlunoMemoria.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/escola/infra/aluno/RepoAlunoMemoria.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/escola/infra/indicacao/EnviarEmailInficacaoComJavaMail.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/escola/infra/indicacao/EnviarEmailIndicacaoComJavaMail.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +81,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Mateus Araujo/Desktop/1963-java-clean-architecture-aula_4&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Mateus Araujo/Downloads/1963-java-clean-architecture-aula_5&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;
   }
 }</component>
@@ -76,6 +90,8 @@
       <recent name="C:\Users\Mateus Araujo\Documents\Github\SchoolCode\SchoolCode\src\main\kotlin\escola" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="escola.application" />
+      <recent name="escola.application.aluno.dtos" />
       <recent name="escola.indicacao" />
       <recent name="escola" />
       <recent name="escola.aluno" />
@@ -84,7 +100,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Kotlin.MatricularAlunoLinhaComando">
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="escola.MainKt" />
       <module name="SchoolCode.main" />
@@ -92,8 +108,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MatricularAlunoLinhaComando" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="escola.MatricularAlunoLinhaComando" />
+      <module name="SchoolCode.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.MatricularAlunoLinhaComando" />
         <item itemvalue="Kotlin.MainKt" />
       </list>
     </recent_temporary>

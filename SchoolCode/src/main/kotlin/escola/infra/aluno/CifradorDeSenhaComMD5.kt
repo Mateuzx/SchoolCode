@@ -1,6 +1,6 @@
 package escola.infra.aluno
 
-import escola.dominio.aluno.CifradorDeSenha
+import escola.domain.aluno.CifradorDeSenha
 import java.security.MessageDigest
 import java.security.NoSuchAlgorithmException
 

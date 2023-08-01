@@ -1,12 +1,12 @@
 package escola.infra.aluno
 
-import escola.dominio.aluno.Aluno
-import escola.dominio.aluno.CPF
-import escola.dominio.aluno.RepoAlunos
+import escola.domain.aluno.Aluno
+import escola.domain.aluno.CPF
+import escola.domain.aluno.RepoAlunos
 
 class RepoAlunoMemoria : RepoAlunos {
 
-    lateinit var matriculados: MutableList<Aluno>
+    private lateinit var matriculados: MutableList<Aluno>
 
     override fun matricular(aluno: Aluno) {
         this.matriculados.add(aluno)

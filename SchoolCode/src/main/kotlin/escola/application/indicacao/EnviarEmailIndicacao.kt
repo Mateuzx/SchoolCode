@@ -1,6 +1,6 @@
-package escola.aplicacao.indicacao
+package escola.application.indicacao
 
-import escola.dominio.aluno.Aluno
+import escola.domain.aluno.Aluno
 
 interface EnviarEmailIndicacao {
 

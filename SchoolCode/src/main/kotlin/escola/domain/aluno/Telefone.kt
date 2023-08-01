@@ -1,4 +1,4 @@
-package escola.dominio.aluno
+package escola.domain.aluno
 
 data class Telefone(
     val ddd: String,

@@ -1,4 +1,4 @@
-package escola.dominio.aluno
+package escola.domain.aluno
 
 data class Aluno(
     var cpf: CPF,
@@ -9,7 +9,6 @@ data class Aluno(
 ) {
 
     constructor(cpf: CPF, nome: String, email: Email) : this(cpf, nome, email, mutableListOf(),"")
-
 
     fun adicionarTelefone(ddd: String, numero: String) {
         telefone.add(Telefone(ddd, numero))

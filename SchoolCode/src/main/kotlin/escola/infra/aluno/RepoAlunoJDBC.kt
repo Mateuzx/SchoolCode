@@ -1,6 +1,6 @@
 package escola.infra.aluno
 
-import escola.dominio.aluno.*
+import escola.domain.aluno.*
 import java.sql.Connection
 import java.sql.SQLException
 
@@ -99,6 +99,5 @@ class RepoAlunoJDBC() : RepoAlunos {
             throw RuntimeException(e)
         }
     }
-
 
 }
